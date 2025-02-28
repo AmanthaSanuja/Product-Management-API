@@ -2,9 +2,9 @@ package com.example.Product.Management.Dto;
 
 import java.util.Date;
 
+
 public class ProductDto {
 
-    private int id;
     private String name;
     private String brand;
     private String category;
@@ -12,13 +12,6 @@ public class ProductDto {
     private String description;
     private Date createdAt;
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getName() {
         return name;
